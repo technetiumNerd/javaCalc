@@ -36,8 +36,8 @@ public class Calculator {
   private static double[] GetNumbers(Scanner scan) {
     double num[]  = new double[2];
     System.out.println("Enter first number, then the second.");
-    num[0] = scan.nextInt();
-    num[1] = scan.nextInt();
+    num[0] = scan.nextDouble();
+    num[1] = scan.nextDouble();
     return num;
   }
   // method for addition and printing it
