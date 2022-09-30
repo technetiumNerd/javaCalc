@@ -54,7 +54,7 @@ public class TaxiCalc {
       }
       // if any failure, print and restart. continue included for clarity, though inconsequential
       catch (NumberFormatException e) {
-        System.out.println("Input failed. Start over!");
+        System.out.println("You have failed to input a valid time. Start over!");
         continue;
       }
     }
@@ -69,7 +69,7 @@ public class TaxiCalc {
       }
       // if any failure, print and restart. continue included for clarity, though inconsequential
       catch (NumberFormatException e) {
-        System.out.println("Input failed. Start over!");
+        System.out.println("You have failed to input a valid number. Start over!");
         continue;
       }
     }
