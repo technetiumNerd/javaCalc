@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.regex.PatternSyntaxException;
 public class TaxiCalc {
   public static void main(String[] args) {
     // declare recurrent use variables once
@@ -53,7 +54,7 @@ public class TaxiCalc {
         return timeSlice;
       }
       // if any failure, print and restart. continue included for clarity, though inconsequential
-      catch (NumberFormatException e) {
+      catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {
         System.out.println("You have failed to input a valid time. Start over!");
         continue;
       }
