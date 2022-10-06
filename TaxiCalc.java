@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.regex.PatternSyntaxException;
 public class TaxiCalc {
   public static void main(String[] args) {
     // declare recurrent use variables once
